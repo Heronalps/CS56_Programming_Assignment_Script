@@ -1,0 +1,9 @@
+For the System Under Design to move the XML data instance Claim_Case_1 and
+XSL style sheet together through the workflow #PW23 with department=3, the
+XSL used for the transform is referenced from within the XML and a 1-1
+association is created within the database between the XML instance and the
+respective style sheet. Since a single XSL can be used many times, the XSL
+style sheets are distinctly versioned within the system under design
+(version=10) and the specific version used to create the document is noted in
+the XML and the database association between the XML data set and the XSL
+style sheet.
